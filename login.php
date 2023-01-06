@@ -34,7 +34,7 @@
         <div style="font-size:20px;margin:10px;">Login</div>
         <input id="text"type='text' name="user_name"><br><br>
         <input id="password"type='text' name ="password"><br><br>
-        <input tid="button"type='submit' value="Login"><br><br>
+        <input id="button"type='submit' value="Login"><br><br>
 
         <a href="signup.php">Signup</a>
     </form>
