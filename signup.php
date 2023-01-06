@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login</title>
+        <title>SignUp</title>
 </head>
 <body>
     <style type="text/css">
