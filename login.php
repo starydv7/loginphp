@@ -14,6 +14,7 @@
             border-radius:5px;
             padding:4px;
             border:solid thin #aaa;
+            width:100%;
         }
         #button{
             padding:10px;
@@ -28,15 +29,16 @@
             width:300px;
             padding:20px;
         }
+       
     </style>
     <div id="box">
     <form method="post">
-        <div style="font-size:20px;margin:10px;">Login</div>
-        <input id="text"type='text' name="user_name"><br><br>
-        <input id="password"type='text' name ="password"><br><br>
+        <div style="font-size:20px;margin:10px;color:white;margin-left:65px;">Login</div>
+        <input id="text"type='text' name="user_name"placeholder="Enter userId..."><br><br>
+        <input id="text"type='text' name ="password"placeholder="Enter Password..."><br><br>
         <input id="button"type='submit' value="Login"><br><br>
 
-        <a href="signup.php">Signup</a>
+        <a href="signup.php">Click to signup</a>
     </form>
 </body>
 </html>
