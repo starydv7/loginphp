@@ -1,5 +1,8 @@
 <?php
-
+session_start();
+include("connection.php");
+include("function.php");
+$user_data = check_login($con);
 ?>
 <!DOCTYPE <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
